@@ -1,9 +1,31 @@
 aid: pinscreen
 name: Pinscreen
-description: 'Pinscreen is a company surfaced as a portfolio company of lux-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Pinscreen is an American AI and VFX production company founded in 2015 by Hao Li
+  (MIT TR35 winner and professor of computer vision at MBZUAI), headquartered in
+  Los Angeles with a branch in Abu Dhabi (UAE). It builds advanced generative AI
+  for film production and interactive experiences, including AI lip sync, face
+  reenactment, face swaps, de-aging, voice cloning, and photoreal 3D avatar
+  digitization, and is known for developing the world's first real-time deepfake
+  technology. Its Avatar Neo product generates a photoreal, riggable 3D avatar
+  from a single photo (exportable as GLB/FBX with animation rigs) and is offered
+  to developers as the Avatar Neo SDK: Unreal and Unity engine plugins backed by
+  an avatar-generation API that can be deployed anywhere. Customers include
+  Netflix, Amazon Studios, Warner Bros, Miramax, Apple, Google, Adobe, and DARPA.
+  Backed by Lux Capital and Middle East investors.
 url: https://raw.githubusercontent.com/api-evangelist/pinscreen/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.pinscreen.com/images/websiteMetaDataPreview.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,11 +34,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Ai
-apis: []
+- Artificial Intelligence
+- Generative AI
+- Avatars
+- 3D
+- Visual Effects
+- Deepfakes
+- Face Generation
+- Gaming
+- AR/VR
+apis:
+- name: Avatar Neo SDK
+  description: >-
+    Developer SDK for high-fidelity 3D avatar generation from a single photo,
+    delivered as Unreal and Unity engine plugins backed by a deployable
+    avatar-generation API. No public machine-readable API description was found.
+  humanURL: https://www.pinscreen.com/avatar-neo-developer-sdk
+  tags:
+  - Avatars
+  - 3D
+  - SDK
+  properties:
+  - type: SDKs
+    url: packages/pinscreen-packages.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +68,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.pinscreen.com
+- type: DeveloperPortal
+  url: https://www.pinscreen.com/avatar-neo-developer-sdk
+- type: TermsOfService
+  url: https://www.pinscreen.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.pinscreen.com/privacy-policy
+- type: Support
+  url: https://www.pinscreen.com/contact
+- type: Packages
+  url: packages/pinscreen-packages.yml
+- type: SDKs
+  url: packages/pinscreen-packages.yml
+- type: LLMsTxt
+  url: llms/pinscreen-llms.txt
+- type: DomainSecurity
+  url: security/pinscreen-domain-security.yml
+- type: Twitter
+  url: https://twitter.com/PinscreenInc
+- type: LinkedIn
+  url: https://www.linkedin.com/company/pinscreen
+- type: YouTube
+  url: https://www.youtube.com/@pinscreeninc
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

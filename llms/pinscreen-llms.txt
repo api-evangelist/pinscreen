@@ -1,0 +1,25 @@
+# Pinscreen
+
+> Pinscreen is an American AI and VFX production company (founded 2015 by Hao Li) that builds advanced generative AI for film production and interactive experiences — AI lip sync, face reenactment, face swaps, de-aging, voice cloning, and photoreal 3D avatar digitization. Its Avatar Neo product generates a photoreal, riggable 3D avatar from a single photo, offered to developers as the Avatar Neo SDK (Unreal and Unity plugins plus a deployable avatar-generation API). Headquartered in Los Angeles with a branch in Abu Dhabi (UAE).
+
+## Products
+- [Avatar Neo Creator App](https://www.pinscreen.com/avatar-neo-creator-app): Create a photoreal 3D avatar from a single photo; customize body shape and export the 3D model as GLB or FBX, including animation rigs.
+- [Avatar Neo Developer SDK](https://www.pinscreen.com/avatar-neo-developer-sdk): Incorporate high-fidelity 3D avatar generation from photos into 3D apps, games, and AR/VR experiences. Choose a platform (Unreal or Unity) and download the corresponding plugin; the plugin communicates with Pinscreen's servers, and the API can be deployed anywhere.
+- [VFX Services](https://www.pinscreen.com/vfx-services): AI VFX for photorealistic digital actors — face reenactment, AI lip sync, face swaps, de-aging, and voice cloning.
+- [VFX Technology](https://www.pinscreen.com/vfx-technology)
+- [VFX Research](https://www.pinscreen.com/vfx-research)
+- [VFX Projects](https://www.pinscreen.com/vfx-projects)
+
+## Company
+- [About Pinscreen](https://www.pinscreen.com/about-us-company)
+- [Press](https://www.pinscreen.com/about-us-press)
+- [Ethics & Safety](https://www.pinscreen.com/ethics-safety)
+- [Jobs](https://www.pinscreen.com/jobs)
+- [Contact](https://www.pinscreen.com/contact) (info@pinscreen.com)
+
+## Legal
+- [Terms of Use](https://www.pinscreen.com/terms-of-use)
+- [Privacy Policy](https://www.pinscreen.com/privacy-policy)
+
+## Notes
+- No public machine-readable API description (OpenAPI/AsyncAPI/GraphQL), package-registry SDK, MCP server, /.well-known catalog, or public status/changelog surface was found as of 2026-07-20. The Avatar Neo SDK is distributed as Unreal/Unity plugins from the developer page above.

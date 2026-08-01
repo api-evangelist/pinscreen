@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: derived
+source: https://www.pinscreen.com/avatar-neo-developer-sdk
+notes: >-
+  Pinscreen publishes a first-party Avatar Neo SDK that lets developers
+  incorporate high-fidelity 3D avatar generation from a single photo into
+  3D apps, games, and AR/VR experiences. The SDK ships as engine plugins for
+  Unreal and Unity that communicate with Pinscreen's servers; the underlying
+  avatar-generation API can also be deployed on-premise. The plugins are
+  distributed from Pinscreen's developer page rather than a public package
+  registry (npm/PyPI/etc.), so no registry coordinates exist to link.
+packages:
+  - language: cpp
+    platform: unreal-engine
+    registry: vendor
+    name: Avatar Neo SDK (Unreal plugin)
+    url: https://www.pinscreen.com/avatar-neo-developer-sdk
+    install: Choose the Unreal platform on the Avatar Neo Developer SDK page and download the corresponding plugin.
+    official: true
+  - language: csharp
+    platform: unity
+    registry: vendor
+    name: Avatar Neo SDK (Unity plugin)
+    url: https://www.pinscreen.com/avatar-neo-developer-sdk
+    install: Choose the Unity platform on the Avatar Neo Developer SDK page and download the corresponding plugin.
+    official: true
