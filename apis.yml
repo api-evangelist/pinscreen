@@ -14,6 +14,17 @@ description: >-
   Netflix, Amazon Studios, Warner Bros, Miramax, Apple, Google, Adobe, and DARPA.
   Backed by Lux Capital and Middle East investors.
 url: https://raw.githubusercontent.com/api-evangelist/pinscreen/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
